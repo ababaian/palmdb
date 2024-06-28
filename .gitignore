@@ -1,3 +1,8 @@
+# Database files (s3)
+/202*-*-*
+/img/
+
+## R specific Ignores
 # History files
 .Rhistory
 .Rapp.history
