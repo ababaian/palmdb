@@ -2,6 +2,9 @@
 /202*-*-*
 /img/
 
+# Wiki
+palmdb.wiki*
+
 ## R specific Ignores
 # History files
 .Rhistory
