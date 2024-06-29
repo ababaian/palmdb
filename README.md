@@ -2,9 +2,11 @@
 
 ## Current Release: `2023-04-26`. sOTU count: `508,607`
 
-### Palmprint Barcode
+### 
 
-`palmDB` is a database of viral polymerase palmprint (barcode) sequences classified by clustering sequences into species-like operational taxonomic units (OTUs) at 90% amino acid identity.
+- `palmdb` is a database of viral polymerase palmprint (barcode) sequences classified by clustering sequences into species-like operational taxonomic units (OTUs) at 90% amino acid identity.
+- `palm_annot` [(link)](https://github.com/rcedgar/palm_annot) is a command-line tool to identify RdRp sequences and annotate the palmprints within them.
+- `palmID` [(link)](https://serratus.io/palmid) is a web-tool to query `palmdb` with an RdRp sequence, and retrieve matches in the SRA.
 
 ![palmDB](https://s3.amazonaws.com/palm.db/img/palmprint_structure.png)
 
@@ -24,7 +26,6 @@ The hallmark gene for RNA viruses is the RNA-dependent RNA-polymerase (`RdRp`). 
 #### RdRp sequences
 
 Source-original sequences are avaialble in the  `raw/` folder of the [`Current Release`](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz)
-
 
 ### References
 
