@@ -2,21 +2,28 @@
 
 ## Current Release: `2023-04-26`. sOTU count: `508,607`
 
-#### Palmprint sequences
-- sOTU palmprints (63 MB) [`sotus.palmprint.faa`](https://s3.amazonaws.com/palm.db/final/sotus.palmprint.faa)
-- all-unique palmprints, unclustered (131.3 MB) [`unique.palmprint.faa)`](https://s3.amazonaws.com/palm.db/final/unique.palmprint.faa)
-- sOTU source labels (178.2 MB) [`label_sotu.tsv`](https://s3.amazonaws.com/palm.db/final/label_sotu.tsv)
-
-#### RdRp sequences
-Download [`palmdb.current.tar.gz` (4 GB)](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz)
+### Palmprint Barcode
 
 `palmDB` is a database of viral polymerase palmprint (barcode) sequences classified by clustering sequences into species-like operational taxonomic units (OTUs) at 90% amino acid identity.
-
-### Palmprint Barcode
 
 ![palmDB](https://s3.amazonaws.com/palm.db/img/palmprint_structure.png)
 
 The hallmark gene for RNA viruses is the RNA-dependent RNA-polymerase (`RdRp`). Palmprints are a ~100aa sub-sequence of `RdRp` delineated by the conserved catalytic motifs "A", "B", and "C" in the palm sub-domain. [Learn more...](https://github.com/ababaian/palmdb/wiki)
+
+- Current Release: [`palmdb.current.tar.gz` (4 GB)](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz)
+
+## Download
+
+#### Palmprint sequences
+- sOTU palmprints: [`sotus.palmprint.faa`](https://s3.amazonaws.com/palm.db/final/sotus.palmprint.faa)  (63 MB)
+- all-unique palmprints, unclustered: [`unique.palmprint.faa`](https://s3.amazonaws.com/palm.db/final/unique.palmprint.faa)  (131.3 MB)
+- sOTU source labels: [`label_sotu.tsv`](https://s3.amazonaws.com/palm.db/final/label_sotu.tsv)  (178.2 MB)
+
+#### RdRp sequences
+
+Source-original sequences are avaialble in the  `raw/` folder of the [`Current Release`](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz)
+
+
  
 ### References
 
