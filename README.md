@@ -1,8 +1,14 @@
 ![palmDB](https://s3.amazonaws.com/palm.db/img/palmdb_header.png)
 
-## Release: `2023-04-26`. sOTU count: `508,607`
+## Current Release: `2023-04-26`. sOTU count: `508,607`
 
-[Download `palmdb.current.tar.gz` (4 GB)](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz)
+#### Palmprint sequences
+- sOTU palmprints (63 MB) [`sotus.palmprint.faa`](https://s3.amazonaws.com/palm.db/final/sotus.palmprint.faa)
+- all-unique palmprints, unclustered (131.3 MB) [`unique.palmprint.faa)`](https://s3.amazonaws.com/palm.db/final/unique.palmprint.faa)
+- sOTU source labels (178.2 MB) [`label_sotu.tsv`](https://s3.amazonaws.com/palm.db/final/label_sotu.tsv)
+
+#### RdRp sequences
+Download [`palmdb.current.tar.gz` (4 GB)](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz)
 
 `palmDB` is a database of viral polymerase palmprint (barcode) sequences classified by clustering sequences into species-like operational taxonomic units (OTUs) at 90% amino acid identity.
 
