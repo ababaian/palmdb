@@ -19,9 +19,9 @@ The hallmark gene for RNA viruses is the RNA-dependent RNA-polymerase (`RdRp`). 
 - Release: [`palmdb.current.tar.gz`](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz) (4 GB)
 
 #### Palmprint sequences
-- sOTU palmprints: [`sotus.palmprint.faa`](https://s3.amazonaws.com/palm.db/final/sotus.palmprint.faa)  (63 MB)
-- all-unique palmprints, unclustered: [`unique.palmprint.faa`](https://s3.amazonaws.com/palm.db/final/unique.palmprint.faa)  (131.3 MB)
-- sOTU source labels: [`label_sotu.tsv`](https://s3.amazonaws.com/palm.db/final/label_sotu.tsv)  (178.2 MB)
+- sOTU palmprints: [`sotus.palmprint.faa`](https://s3.amazonaws.com/palm.db/2023-04-24/final/sotus.palmprint.faa)  (63 MB)
+- all-unique palmprints, unclustered: [`unique.palmprint.faa`](https://s3.amazonaws.com/palm.db/2023-04-24/final/unique.palmprint.faa)  (131.3 MB)
+- sOTU source labels: [`label_sotu.tsv`](https://s3.amazonaws.com/palm.db/2023-04-24/final/label_sotu.tsv)  (178.2 MB)
 
 #### RdRp sequences
 
@@ -32,3 +32,4 @@ Source-original sequences are avaialble in the  `raw/` folder of the [`Current R
 - Babaian and Edgar, 2022. [Ribovirus classification by a polymerase barcode sequence. _PeerJ_](https://peerj.com/articles/14055/)
 
 - Edgar _et al._, 2022. [Petabase-scale sequence alignment catalyses viral discovery. _Nature_](https://www.nature.com/articles/s41586-021-04332-2)
+
