@@ -17,6 +17,7 @@ The hallmark gene for RNA viruses is the RNA-dependent RNA-polymerase (`RdRp`). 
 ## Download
 
 - Release: [`palmdb.current.tar.gz`](https://s3.amazonaws.com/palm.db/palmdb.current.tar.gz) (4 GB)
+- Supplement: [`palmfinder_novel_rdrp.id90-2026-08-24.fasta.gz`](s3://serratus-public/rce/palmdb/palmfinder_novel_rdrp.id90-2026-08-24.fasta.gz) (240 kb)
 
 #### Palmprint sequences
 - sOTU palmprints: [`sotus.palmprint.faa`](https://s3.amazonaws.com/palm.db/2023-04-24/final/sotus.palmprint.faa)  (63 MB)
